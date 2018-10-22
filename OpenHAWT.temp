@@ -1,0 +1,14 @@
+<html>
+<title>HAWTIO</title>
+<script lang="javascript">
+    function runOnload() {
+        alert();
+        var jvmConnect = TEMP_PLACHOLDER
+        localStorage.setItem('jvmConnect', jvmConnect);
+        window.location.replace("http://localhost:8080/hawtio/jvm/connect");
+    }
+</script>
+
+<body onload="runOnload()"></body>
+
+</html>
